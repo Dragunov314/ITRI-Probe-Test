@@ -1,0 +1,30 @@
+C:\Users\A20036.ITRI\Desktop\485 motor\485 test\485 test\485 test\bin\Debug\485 test.exe.config
+C:\Users\A20036.ITRI\Desktop\485 motor\485 test\485 test\485 test\bin\Debug\485 test.exe
+C:\Users\A20036.ITRI\Desktop\485 motor\485 test\485 test\485 test\bin\Debug\485 test.pdb
+C:\Users\A20036.ITRI\Desktop\485 motor\485 test\485 test\485 test\obj\Debug\485 test.csprojResolveAssemblyReference.cache
+C:\Users\A20036.ITRI\Desktop\485 motor\485 test\485 test\485 test\obj\Debug\_485_test.Form1.resources
+C:\Users\A20036.ITRI\Desktop\485 motor\485 test\485 test\485 test\obj\Debug\_485_test.Properties.Resources.resources
+C:\Users\A20036.ITRI\Desktop\485 motor\485 test\485 test\485 test\obj\Debug\485 test.csproj.GenerateResource.Cache
+C:\Users\A20036.ITRI\Desktop\485 motor\485 test\485 test\485 test\obj\Debug\485 test.exe
+C:\Users\A20036.ITRI\Desktop\485 motor\485 test\485 test\485 test\obj\Debug\485 test.pdb
+C:\Users\A20036.ITRI\Desktop\隱威\485 motor\485 test\485 test\485 test\bin\Debug\485 test.exe.config
+C:\Users\A20036.ITRI\Desktop\隱威\485 motor\485 test\485 test\485 test\obj\Debug\485 test.exe
+C:\Users\A20036.ITRI\Desktop\隱威\485 motor\485 test\485 test\485 test\obj\Debug\485 test.pdb
+C:\Users\A20036.ITRI\Desktop\隱威\485 motor\485 test\485 test\485 test\bin\Debug\485 test.exe
+C:\Users\A20036.ITRI\Desktop\隱威\485 motor\485 test\485 test\485 test\bin\Debug\485 test.pdb
+C:\Users\A20036.ITRI\Desktop\隱威\485 motor\485 test\485 test\485 test\obj\Debug\485 test.csprojResolveAssemblyReference.cache
+C:\Users\A20036.ITRI\Desktop\隱威\485 motor\485 test\485 test\485 test\obj\Debug\_485_test.Form1.resources
+C:\Users\A20036.ITRI\Desktop\隱威\485 motor\485 test\485 test\485 test\obj\Debug\_485_test.Properties.Resources.resources
+C:\Users\A20036.ITRI\Desktop\隱威\485 motor\485 test\485 test\485 test\obj\Debug\485 test.csproj.GenerateResource.Cache
+C:\Users\455761\Desktop\zxczxc\485 motor\485 test\485 test\485 test\bin\Debug\485 test.exe.config
+C:\Users\455761\Desktop\zxczxc\485 motor\485 test\485 test\485 test\obj\Debug\485 test.exe
+C:\Users\455761\Desktop\zxczxc\485 motor\485 test\485 test\485 test\obj\Debug\485 test.pdb
+C:\Users\455761\Desktop\zxczxc\485 motor\485 test\485 test\485 test\bin\Debug\485 test.exe
+C:\Users\455761\Desktop\zxczxc\485 motor\485 test\485 test\485 test\bin\Debug\485 test.pdb
+C:\Users\455761\Desktop\zxczxc\485 motor\485 test\485 test\485 test\obj\Debug\485 test.csprojResolveAssemblyReference.cache
+C:\Users\455761\Desktop\zxczxc\485 motor\485 test\485 test\485 test\obj\Debug\_485_test.Form1.resources
+C:\Users\455761\Desktop\zxczxc\485 motor\485 test\485 test\485 test\obj\Debug\_485_test.Properties.Resources.resources
+C:\Users\455761\Desktop\zxczxc\485 motor\485 test\485 test\485 test\obj\Debug\485 test.csproj.GenerateResource.Cache
+C:\Users\455761\Desktop\zxczxc\485 motor\Combine\485 test\bin\Debug\485 test.exe.config
+C:\Users\455761\Desktop\zxczxc\485 motor\Combine\485 test\obj\Debug\485 test.exe
+C:\Users\455761\Desktop\zxczxc\485 motor\Combine\485 test\obj\Debug\485 test.pdb

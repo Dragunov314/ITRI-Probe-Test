@@ -1,0 +1,29 @@
+C:\Users\455761\Desktop\zxczxc\485 motor\Combine\485 test\bin\Debug\485 test.exe.config
+C:\Users\455761\Desktop\Dragunov\zxczxc\485 motor\Combine\485 test\bin\Debug\485 test.exe.config
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\bin\Debug\485 test.exe.config
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\obj\Debug\Combine.csprojResolveAssemblyReference.cache
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\obj\Debug\_485_test.Form1.resources
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\obj\Debug\_485_test.Properties.Resources.resources
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\obj\Debug\Combine.csproj.GenerateResource.Cache
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\bin\Debug\485 test.exe
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\bin\Debug\485 test.pdb
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\bin\Debug\Ivi.Dmm.Interop.dll
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\bin\Debug\Ivi.Driver.Interop.dll
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\bin\Debug\Ivi.Visa.Interop.dll
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\obj\Debug\485 test.exe
+C:\Users\455761\Desktop\Dragunov\zxczxc\Combine\485 test\obj\Debug\485 test.pdb
+C:\Users\ryan.kuo\Downloads\Combine\485 test\bin\Debug\485 test.exe.config
+C:\Users\ryan.kuo\Downloads\Combine\485 test\bin\Debug\485 test.exe
+C:\Users\ryan.kuo\Downloads\Combine\485 test\bin\Debug\485 test.pdb
+C:\Users\ryan.kuo\Downloads\Combine\485 test\bin\Debug\Ivi.Dmm.Interop.dll
+C:\Users\ryan.kuo\Downloads\Combine\485 test\bin\Debug\Ivi.Driver.Interop.dll
+C:\Users\ryan.kuo\Downloads\Combine\485 test\bin\Debug\Ivi.Visa.Interop.dll
+C:\Users\ryan.kuo\Downloads\Combine\485 test\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\ryan.kuo\Downloads\Combine\485 test\obj\Debug\Combine.csprojResolveAssemblyReference.cache
+C:\Users\ryan.kuo\Downloads\Combine\485 test\obj\Debug\_485_test.Form1.resources
+C:\Users\ryan.kuo\Downloads\Combine\485 test\obj\Debug\_485_test.Properties.Resources.resources
+C:\Users\ryan.kuo\Downloads\Combine\485 test\obj\Debug\Combine.csproj.GenerateResource.Cache
+C:\Users\ryan.kuo\Downloads\Combine\485 test\obj\Debug\Combine.csproj.CoreCompileInputs.cache
+C:\Users\ryan.kuo\Downloads\Combine\485 test\obj\Debug\485 test.exe
+C:\Users\ryan.kuo\Downloads\Combine\485 test\obj\Debug\485 test.pdb

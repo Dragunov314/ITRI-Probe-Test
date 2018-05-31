@@ -1,0 +1,117 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO.Ports;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace _485_test
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (!serialPort1.IsOpen)
+            {
+                serialPort1.Open();
+                if (serialPort1.IsOpen)
+                {
+                    serialPort1.DataReceived += new SerialDataReceivedEventHandler(serialPort1_DataReceived);
+                    MessageBox.Show("serialPort is connect!!");
+                }
+            }
+            
+        }
+        delegate void Display(Byte[] buffer);
+        void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+            Byte[] buffer = new Byte[1024];
+            Int32 length = (sender as SerialPort).Read(buffer, 0, buffer.Length);
+            Array.Resize(ref buffer, length);
+            //String data = serialPort1.ReadLine();
+            Display d = new Display(DisplayText);
+            this.Invoke(d, new Object[] { buffer });
+        }
+        private void DisplayText(Byte[] buffer)
+        {
+            RecallData.Text += String.Format("{0}{1}", BitConverter.ToString(buffer), Environment.NewLine);
+        }
+        //使用ASCII字元集將位元組轉換為字元組(字串)
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string sss= SendData.Text;
+            byte[] aaa = Encoding.UTF8.GetBytes(SendData.Text);
+            byte[] aaa2 = Encoding.UTF8.GetBytes(SendData.Text + "\r");
+            //serialPort1.Write(aaa,0,aaa.Length);
+            serialPort1.Write(aaa,0,aaa.Length);
+            //serialPort1.WriteLine(SendData.Text + "\r");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // 自動搜尋所有 COM port
+            string[] serialPorts = SerialPort.GetPortNames();
+
+            foreach (string serialPort in serialPorts)
+            {
+                PortName.Items.Add(serialPort);
+                if (PortName.Items.Count > 0)
+                {
+                    PortName.SelectedIndex = 0;
+                }
+            }
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //Byte[] buffer = new Byte[1024];
+            //Int32 length = (sender as SerialPort).Read(buffer, 0, buffer.Length);
+            //Array.Resize(ref buffer, length);
+            ////Display d = new Display(DisplayText);
+            //this.Invoke(d, new Object[] { buffer });
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (serialPort1.IsOpen)
+            {
+                serialPort1.Close();
+                if(!serialPort1.IsOpen)
+                {
+                    MessageBox.Show("serialPort is closed!!");
+                }
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string comm = "";
+            byte[] commbyte = Encoding.UTF8.GetBytes(comm); ;
+            serialPort1.Write(commbyte, 0, commbyte.Length);
+            System.Threading.Thread.Sleep(100);
+            serialPort1.WriteLine("EN 1");
+            System.Threading.Thread.Sleep(100);
+            serialPort1.WriteLine("MI 10000");
+            System.Threading.Thread.Sleep(1500);
+            serialPort1.WriteLine("MI -10000");
+            System.Threading.Thread.Sleep(1500);
+            serialPort1.WriteLine("EN 0");
+            System.Threading.Thread.Sleep(100);
+        }
+        private byte[] BytesChange(string comm)
+        {
+            byte[] byteforcomm = Encoding.UTF8.GetBytes(comm);
+            return byteforcomm;
+        }
+    }
+}
